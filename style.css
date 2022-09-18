@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Poppins:ital,wght@1,200&family=Rubik+Distressed&display=swap');
+body{
+    background-color:#d7e7f6;
+    font-family: Outfit;
+}
+.desc{
+    font-size:15pt;
+    font-weight: 400,700;
+    text-align: center;
+}
+.qr{
+    border-radius: 10px;
+}
+.text{
+    font-size: 10pt;
+}
+.container{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) ;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    position: absolute;
+    top:100px;
+    right:550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:580px) {
+
+    .desc{
+        font-size:15pt;
+        font-weight: 400,700;
+        text-align: center;
+    }
+    .qr{
+        border-radius: 10px;
+    }
+    .text{
+        font-size: 10pt;
+    }
+    .container{
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) ;
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 100px;
+        position: absolute;
+        top:100px;
+        right:100px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    
+}
+
+
+
+
+
+
